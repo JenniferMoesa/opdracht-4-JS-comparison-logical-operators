@@ -12,20 +12,22 @@ if (age >= 18 && age <= 25) {
   console.log("Je bent tussen de 18 en 25 jaar. Je krijgt 50% korting op bier.");
 }
 
-const isFemale = true;
-if (isFemale) {
-  console.log("Je ticket zegt dat je een vrouw bent!");
+const isFemale = "male";
+
+if (isFemale == "female") {
+    document.write(true);
+
 } else {
-  console.log(
-    "Helaas je hebt aangegeven op je ticket dat je een man bent, je mag niet naar binnen"
-  );
+    document.write(false);
 }
 
 const driverStatus = "bob";
-if (driverStatus === "bob") {
-  console.log("Je bent de bob, je mag autorijden");
+
+if (driverStatus == "bob") {
+    document.write("Je mag rijden.");
+
 } else {
-  console.log("Je bent geen bob, hier met die autosleutels");
+    document.write("Je mag niet rijden.");
 }
 
 //DEEL 2
