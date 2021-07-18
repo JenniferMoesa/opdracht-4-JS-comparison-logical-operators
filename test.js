@@ -14,7 +14,7 @@ if (age >= 18 && age <= 25) {
 
 const isFemale = "male";
 
-if (isFemale == "female") {
+if (isFemale === "female") {
     document.write(true);
 
 } else {
@@ -23,7 +23,7 @@ if (isFemale == "female") {
 
 const driverStatus = "bob";
 
-if (driverStatus == "bob") {
+if (driverStatus === "bob") {
     document.write("Je mag rijden.");
 
 } else {
